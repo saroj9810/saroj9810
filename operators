@@ -1,0 +1,22 @@
+<?php
+    //Arithmetic operators
+    // + - * / **(power)10**2 is 100 %
+    //Increment/Decrement Operators
+    // ++  --
+
+    // operator precedence
+    // () parenthesis
+    // ** exponents
+    // * / % product division modular division
+    // + - add subtract
+
+    $counter = 10;
+
+    //$counter++;
+    
+    $counter+=3; // increment by 3 result is 13
+    $counter-=2; // decrement by 2 result is 11
+    echo $counter;
+
+
+?>
