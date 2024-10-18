@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math_functions</title>
+</head>
+<body>
+    <form action = "index.php" method = "post">
+        <label> X: </label> 
+        <input type = "text" name = "X"><br>
+        <label> Y: </label>
+        <input type="text" name= "Y"><br>
+        <label> Z: </label>
+        <input type="text" name= "Z"><br>
+        <input type="submit" value = "Calculate"><br>
+    </form>
+</body>
+</html>
+<?php
+    $x = $_POST["X"];   
+    $y = $_POST["Y"];
+    $z = $_POST["Z"];
+    $total = null;
+
+    //$total = abs($x);
+    //$total = round($x);
+    //$total = floor($x);
+    //$total = ceil($x);
+    //$total = sqrt($x);
+    //$total = pow($x, $y);
+    //$total = max($x, $y, $z);
+    //$total = min($x, $y, $z);
+    //$total = pi();
+    $total = rand(1, 100);
+    
+    echo $total; 
+
+?>
